@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI Classification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MBTI Personality Test</h1>
+        <form id="mbtiForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. I enjoy socializing with large groups.</p>
+                <label>
+                    <input type="radio" name="q1" value="E"> Strongly Agree
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="I"> Strongly Disagree
+                </label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. I prefer practical tasks over abstract ones.</p>
+                <label>
+                    <input type="radio" name="q2" value="S"> Strongly Agree
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="N"> Strongly Disagree
+                </label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. I make decisions based on logic rather than emotions.</p>
+                <label>
+                    <input type="radio" name="q3" value="T"> Strongly Agree
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="F"> Strongly Disagree
+                </label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
